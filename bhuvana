@@ -6,4 +6,7 @@ resource "aws_s3_bucket" "example" {
   versioning {
      Enabled = true
   }
-
+resource "aws_instance" "demo" {
+iam = "xxxxxxxxxxxxxx"
+instance.type = "t2.micro"
+}
