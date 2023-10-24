@@ -10,3 +10,4 @@ resource "aws_instance" "demo" {
 iam = "xxxxxxxxxxxxxx"
 instance.type = "t2.micro"
 }
+hi hello 
