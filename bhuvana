@@ -11,3 +11,7 @@ iam = "xxxxxxxxxxxxxx"
 instance.type = "t2.micro"
 }
 hi hello 
+}
+ # !/bin/bash
+ echo "sounder is check for all folder"
+  hi hello bro 
