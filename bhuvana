@@ -1,0 +1,9 @@
+***************
+resource "aws_s3_bucket" "example" {
+  bucket = "mybhuvana"
+   acl    = "private"
+}
+  versioning {
+     Enabled = true
+  }
+
